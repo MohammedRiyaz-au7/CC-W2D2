@@ -1,0 +1,12 @@
+1. 
+With four bytes (the usual amount of memory allocated to each int variable), we could store 232 different integer numbers. If the leftmost bit is a 1, the number is construed as negative. If the leftmost bit is a 0, then the number is construed as either 0 (if all the bits are 0) or positive (if the leftmost bit is 0 but there’s at least one 1 somewhere). So we expect half of the int values to be negative, one of them to be 0, and the rest to be positive. Therefore, we expect the largest positive int to be 231 - 1, or 2,147,483,647, and the most negative integer to be  - 231, or -2,147,483,648.
+The floating-point type (or “float type” for short) is used for numbers that have fractional parts or are too large to store in a long int that takes up a reasonable amount of memory. Typically, eight bytes are used for the Python floating type. Notice that this means that there are only 264 different floating-point numbers that can be represented. This might seem like a lot of numbers, but remember that the real number line has infinitely many numbers. Floating-point numbers, therefore, allow only limited precision.
+
+
+2. 
+    8bit =1 byte
+    1024 bytes=1kb
+    1024 kb=1mb
+    1024 mb=1gb
+
+So 1 GB= 8*1024*1024*1024=8,589,934,592
